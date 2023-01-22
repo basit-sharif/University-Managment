@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    fieldset{
+        margin: auto;
+        margin-top: 15rem;
+        width: 20rem;
+        height: 16rem;
+    }
+    input{
+        margin: 0 1rem 0 1rem;
+        width: 17rem;
+        height: 1.5rem;
+    }
+    button{
+        margin-left: 13.5rem;
+        margin-top: 1.5rem;
+        font-size:14px;
+        padding: 4px 1rem 4px 1rem;
+        border-radius: 2rem;
+    }
+</style>
+<body>
+    <fieldset>
+        <legend>Make a Course</legend>
+        <h3>Course ID</h3>
+        <input type="text" id="courseid">
+        <h3>Course Name</h3>
+        <input type="text" id="coursename">
+        <button onclick="location.href = './Done.html'" id="makeNewCourse">Submit</button>
+    </fieldset>
+</body>
+<script src="./Index.js"></script>
+</html>

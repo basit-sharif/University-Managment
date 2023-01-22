@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your Message : </h1>
+<p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab reprehenderit, officiis totam eos iusto blanditiis praesentium harum quaerat ipsam sint temporibus aliquam velit beatae quae vitae sed excepturi aspernatur nam ad. Rerum voluptatem quasi laboriosam, culpa possimus porro saepe perferendis ad a iusto iure maxime officiis deserunt autem tempora unde distinctio veniam quam odio neque dicta quis error commodi repellendus.
+<button id="btntoshow">View More</button>
+</body>
+<script>
+    let para = document.getElementById("para")
+    let btntoshow = document.getElementById("btntoshow");
+    btntoshow.addEventListener("click",()=>{
+        btntoshow.style.display = "none"
+        para.insertAdjacentHTML("beforeend"," Rem, error fuga sit obcaecati et aspernatur dolorum voluptatibus harum voluptas placeat ut at sunt delectus nostrum dignissimos tenetur excepturi eveniet enim vero, doloribus blanditiis minima deleniti magni quod? Atque quae beatae inventore veniam dolores esse perspiciatis, alias quis asperiores!")
+    });
+</script>
+</html>

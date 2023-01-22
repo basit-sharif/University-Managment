@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        background-color: whitesmoke;
+    }
+    button{
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 2rem;
+    background-color: rgba(76, 152, 144, 0.208);
+    border: 1.5px solid salmon;
+    padding: 0.6rem 1.8rem 0.5rem 1.9rem;
+    color: rgb(119, 173, 174);
+    margin-top: 4.3rem;
+    margin-left: 5.5rem;
+}
+button:hover{
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    background-color: rgba(76, 152, 144, 0.527);
+    border: 1.5px solid rgb(230, 71, 54);
+    padding: 0.6rem 1.8rem 0.5rem 1.9rem;
+    color: rgb(60, 103, 103);
+    margin-top: 4.3rem;
+    margin-left: 5.6rem;
+    cursor: pointer;
+}
+.personstyle{
+    margin: auto;
+    margin-top: 18rem;
+    width: 50%;
+    height: 25vh;
+    border-radius: 4rem;
+    background-color: white;
+}
+a{
+    margin-left: 6.7rem;
+}
+#regesterinstructorhtml{
+    margin-left: 7.8rem;
+}
+</style>
+<body>
+    <div class="personstyle">
+    <button onclick="location.href='./studentshow.html'" id="studentshow">Students</button>
+    <button onclick="location.href='./instructorshow.html'">Instructor</button>
+    <br>
+    <br>
+    <a href="./regesterStudent.html">Register Student</a>
+    <a id="regesterinstructorhtml" href="./regesterInstructor.html">Register Instructor</a>
+    </div>
+</body>
+<script src="./Index.js"></script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        letter-spacing: 2.5px;
+        word-spacing: 8px;
+    }
+    fieldset{
+        margin: auto;
+        margin-top: 14rem;
+        width: 28rem;
+        height: 18rem;
+    }
+    input{
+        margin-left: 2rem;
+        margin-top: 8px;
+        width: 24rem;
+        height: 2rem;
+    }
+    #regesterstudentsubmitbrthtml{
+        width: 7rem;
+        height: 2.3rem;
+        margin-top: 1rem;
+        margin-left: 19.3rem;
+        border: 1px solid salmon;
+        border-radius: 3rem;
+    }
+    #regesterstudentsubmitbrthtml:hover{
+        width: 7rem;
+        margin-top: 1rem;
+        margin-left: 19.3rem;
+        border: 0.5px solid salmon;
+        background-color: rgb(225, 204, 204);
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <fieldset>
+        <legend>Regester Student</legend>
+    <h3>Your Full Name</h3>
+    <input id="newRegisterStudentName" type="text" maxlength="21">
+    <h3>Your Age</h3>
+    <input id="newRegisterStudentAge" type="number">
+    <br>
+    <button id="regesterstudentsubmitbrthtml" onclick="location.href='./registerstudentincourse.html'">Submit</button>
+    <!-- <button id="regesterstudentsubmitbrthtml">Submit</button> -->
+</fieldset>
+</body>
+<script src="./Index.js"></script>
+</html>
